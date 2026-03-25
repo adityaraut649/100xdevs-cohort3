@@ -36,3 +36,4 @@ Git Bash and terminal Basics:
                 - we save and exit that file [press ESP and then write :wq! ]
                 - if we run that file in bash shell using cat command it will give output : console,log("Heyy") [cat a.js]
                 - but if we run that using node command then it will give out output : Heyy [node a.js]
+
