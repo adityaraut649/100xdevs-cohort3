@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+
+    <button onclick="myFunction()" id="btn">count 0</button>
+
+    <script>
+      function myFunction() {
+        const btn = document.getElementById("btn").innerHTML;
+        console.log(btn.split(" "));
+        const currentcount = btn.split(" ")[1];
+        const newcount = parseInt(currentcount) + 1;
+        document.getElementById("btn").innerHTML = `count ${newcount}`;
+      }
+    </script>
+  </body>
+</html>
